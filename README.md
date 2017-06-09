@@ -9,3 +9,10 @@
 | POST | /projects | <ul><li>name:string</li></ul> | create a new project | YES |
 | GET | /projects |  | list all projects of a member | YES |
 | POST | /projects/:id/members | <ul><li>member:string</li></ul> | project owner can add members | YES |
+
+
+## Local Docker setup
+
+- install docker and docker-compose
+- `docker-compose build` for building the images
+- `docker-compose run` for running the services
